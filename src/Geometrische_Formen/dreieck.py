@@ -14,6 +14,8 @@ class Dreieck(Polygon):
         self.p2: Final[Punkt] = p2
         self.p3: Final[Punkt] = p3
 
+        print(f"Dreieck.__init__({p1}, {p2}, {p3})")
+
 
     @override
     def punkte(self) -> tuple[Punkt, Punkt, Punkt]:
